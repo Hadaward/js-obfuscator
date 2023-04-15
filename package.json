@@ -1,0 +1,17 @@
+{
+  "name": "obfuscator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "node src/index.js -f public_html/test.js -id -s -kl 650"
+  },
+  "dependencies": {
+    "commander": "^10.0.1",
+    "esprima": "^4.0.1",
+    "minify": "^9.2.0"
+  }
+}
